@@ -1,0 +1,267 @@
+.titlehome{
+    
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(143, 136, 136, 0.84); 
+}
+
+li {
+    float: left;
+    padding-left: 20px;
+   
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    box-shadow: inset 0 0 0 0 #000000;
+    transition:.4s ease-in-out;  
+
+}
+.lb-cent{
+
+  margin-left: 15px;
+  
+}
+li a:hover {
+     box-shadow: inset 130px 0 0 0 #483838;
+     color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    opacity: 0.4;
+   
+}
+
+.bg-dark {
+    background-color: rgb(143, 136, 136);
+}
+
+.w-full {
+    width: 100%;
+   
+}
+
+
+footer p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.grid-container {
+   
+    /* align-items: center; */
+    background-color: rgb(230, 230, 223);
+    padding: 50px 0; 
+    display: grid;
+    height: 630px;
+  
+}
+.grid-container2 {
+   
+    /* align-items: center; */
+    background-color: rgb(230, 230, 223);
+    padding: 50px 0; 
+    display: grid;
+    height: auto;
+  
+}
+.admin_center{
+    align-items: center ;
+    padding: 50px 44%; 
+    
+}
+
+.backr{
+   
+    background-color: rgb(215, 215, 209);
+}
+.h-full{
+    height: 100%;
+}
+
+.grid-container>div {
+   
+    max-width: 30%;
+    /* background-color: rgb(152, 152, 15); */
+    /* text-align: center;
+    margin: 0 auto;
+    font-size: 30px; */
+}
+
+ header {
+    position: fixed;
+    background-color: rgb(28, 22, 22);
+    width: 100%;
+    z-index: 99;
+} 
+
+
+/* .container>div {
+  
+    text-align: center;
+    margin: 0 auto;
+   
+} */
+
+.container {
+    
+    /* text-align: center; */
+    position: relative ;
+    /* width: 50%; */
+    margin: 0 auto;
+   
+  }
+  
+  .image {
+    opacity: 1;
+    width: 500px;
+    height: auto;
+    transition: .5s ease;
+    /* backface-visibility: hidden; */
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* text-align: center; */
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #34403c;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    /* text-align: center; */
+  }
+
+  .button {
+    
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #454747; */
+    /* height: 100%; */
+}
+
+
+.content>form {
+    width: 1000px;
+    /* border: 3px solid rgb(180, 44, 44); */
+    margin-top: 100px;
+    background: rgb(189, 186, 186);
+    border-radius: 20px;
+    padding: 20px ;
+    border: 3px solid blue;
+    animation: 4s infinite glow;
+}
+
+
+ .inp_prod {
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+} 
+.produs_submit:hover{
+    background-color: rgb(20, 22, 22);
+    color: rgb(255, 252, 252);
+}
+
+.produs_input:focus{
+    border: 5px solid rgb(79, 72, 72);
+    font-size: 16px;
+    
+
+}
+.picture{
+   width: 100px;
+   height: auto;
+}
+
+  @keyframes glow {
+    0% {
+      border-color: red;
+    }
+    25% {
+      border-color: blue;
+    }
+    75% {
+      border-color: yellow;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
+  @-webkit-keyframes glow {
+    0% {
+      border-color: red;
+    }
+    25% {
+      border-color: blue;
+    }
+    75% {
+      border-color: yellow;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
+
+
+
+
+
