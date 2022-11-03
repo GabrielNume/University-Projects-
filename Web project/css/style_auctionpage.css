@@ -1,0 +1,26 @@
+.auction {
+    display: flex;
+
+}
+
+.auction>.picture {
+    flex-basis: 50%;
+    margin-right: 1rem;
+    display: block;
+    margin-right: 5%;
+}
+
+.picture>img {
+    max-width: 550px
+}
+
+.auction_info {
+    flex-basis: 50%;
+    display: block;
+    margin-right: 5%;
+}
+
+.content {
+    background-color: #d9d9d96d;
+    padding-left: 5%;
+}
